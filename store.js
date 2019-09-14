@@ -48,7 +48,7 @@ class Store {
         // Hide the demo notice if the publishable key is in live mode.
         document.querySelector('#order-total .demo').style.display = 'none';
       }
-      console.log(config);
+      console.log(config)
       return config;
     } catch (err) {
       return {error: err.message};
